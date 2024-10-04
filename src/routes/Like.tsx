@@ -45,6 +45,7 @@ const ProductLikes = () => {
 
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-[100px]">
+            <h1>LIKED PRODUCTS</h1>
             {likedProducts.map((product: any) => (
                 <div key={product.id} className='h-[470px] card max-w-sm rounded-lg overflow-hidden shadow-lg bg-pink-100 hover:shadow-xl transition-shadow duration-300'>
                      <button onClick={() => toggleLike(product.id)} className="absolute top-4 right-4">
