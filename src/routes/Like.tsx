@@ -54,7 +54,7 @@ const ProductLikes = () => {
                    
                     <div className="p-4">
                         <h2 className="text-lg font-semibold mb-2">{product.title}</h2>
-                        <p className="text-xl font-bold text-green-500">{product.price} so'm</p>
+                        <p className="text-xl font-bold text-red-700">{product.price} so'm</p>
                         <p>{product.quantity}</p>
                        
                     </div>
