@@ -20,3 +20,11 @@ export type Dimensions = {
     height: number;
     depth:  number;
 }
+export type productsType = {
+    id: number;
+    thumbnail: string;
+    title: string;
+    price: number;
+    slice: number;
+    quantity: number;
+};
